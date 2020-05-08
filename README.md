@@ -3,7 +3,7 @@ go-sql-synchronize小工具，可以执行同步地方的相同数据库，异�
 ### 编译
 > go build main.go
 ### 使用方法
-> 在config目录下添加需要同步的数据库连接
+> 在config/db.yaml 中添加需要同步的数据库连接
 ---
 ``` 
 name: db_name
